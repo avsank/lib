@@ -1,0 +1,377 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-12T18:22:08.929Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4471000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lib.step_definitions.Hook.setUpScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "verify both Students and librarians  login",
+        "description": "",
+        "id": "as-a-user;verify-both-students-and-librarians--login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lib.step_definitions.Hook.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5202000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user login as a \"student\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 34
+                }
+              ],
+              "location": "com.lib.step_definitions.US_1_step_definitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 52000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on submit button",
+            "match": {
+              "location": "com.lib.step_definitions.US_1_step_definitions.user_click_on_submit_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 629000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user clicks on userName",
+            "match": {
+              "location": "com.lib.step_definitions.US_2_step_definitions.userClicksOnUserName()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 354000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "users click to logout button",
+            "match": {
+              "location": "com.lib.step_definitions.US_2_step_definitions.usersClickToLogoutButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@us2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-12T18:22:19.852Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2875000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lib.step_definitions.Hook.setUpScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "verify both Students and librarians  login",
+        "description": "",
+        "id": "as-a-user;verify-both-students-and-librarians--login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.lib.step_definitions.Hook.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5188000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "the user login as a \"librarian\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarian\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"password2\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.lib.step_definitions.US_1_step_definitions.the_user_login_as_a_and(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "user click on submit button",
+            "match": {
+              "location": "com.lib.step_definitions.US_1_step_definitions.user_click_on_submit_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 523000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "user clicks on userName",
+            "match": {
+              "location": "com.lib.step_definitions.US_2_step_definitions.userClicksOnUserName()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "users click to logout button",
+            "match": {
+              "location": "com.lib.step_definitions.US_2_step_definitions.usersClickToLogoutButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.lib.step_definitions.Hook.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@us2"
+          }
+        ]
+      }
+    ],
+    "name": "As a user",
+    "description": "\tI should be able to logout from the library app.",
+    "id": "as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US_2.feature",
+    "tags": [
+      {
+        "name": "@us2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
