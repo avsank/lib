@@ -2,7 +2,7 @@
 Feature: As a user
 	I should be able to logout from the library app.
 
-	Scenario Outline:verify both Students and librarians  login
+	Scenario Outline:verify both Students and librarians  log out
 
 		Given the user login as a "<userName>" and "<password>"
 		When user click on submit button
