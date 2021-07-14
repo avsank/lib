@@ -31,5 +31,5 @@ public class User_page extends Home_page {
 
     @FindBy(xpath = "/a[@class='dropdown-item']")
     public WebElement logOutButton2;*/
-
+//We offer various benefits related to insurance as well as paid holidays, vacation and sick time, which you will learn more about as you complete your new hire paperwork.
 }
